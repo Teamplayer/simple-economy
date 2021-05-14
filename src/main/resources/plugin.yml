@@ -1,0 +1,13 @@
+name: SimpleEconomy
+main: io.teamplayer.simpleeconomy.SimpleEconomy
+version: 1
+api-version: 1.16
+description: Simple Economy Plugin
+commands:
+  balance:
+    description: Get your or a specified user's balance
+    usage: /balance [username]
+  setbalance:
+    permission: simpleeconomy.setbalance
+    description: Set a specified user's balance
+    usage: /setbalance <username> <newbalances>
